@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.video-card {
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+  background: #000;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.video-card video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+
+<div class="video-card" id="videoCard">
+  <video autoplay muted loop playsinline preload="auto">
+    <source src="https://files.catbox.moe/201bia.mp4"
+            type="video/mp4">
+  </video>
+</div>
+
+<script>
+document.getElementById("videoCard").addEventListener("click", function() {
+  window.open(
+    "https://hai8g.com/4/10155957",
+    "_blank",
+    "noopener"
+  );
+});
+</script>
+
+</body>
+</html>
